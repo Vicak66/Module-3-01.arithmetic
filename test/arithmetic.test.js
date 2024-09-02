@@ -1,12 +1,14 @@
 var expect = chai.expect;
 
 describe("add", function() {
-    var num1 = 10;
-    var num2 = 24;
+    it("should add two numbers", function() {
+        var num1 = 10;
+        var num2 = 24;
 
-    var result = add(num1, num2);
+        var result = add(num1, num2);
 
-    expect(result).to.eql(34);
+        expect(result).to.eql(34);
+    });
 });
 
 describe("subtract", function() {
