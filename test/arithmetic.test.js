@@ -19,16 +19,6 @@ describe("subtract", function() {
     });
 });
 
-describe("subtract", function() {
-    it("should subtract the second number from the first number", function() {
-      var num1 = 100;
-      var num2 = 91;
-  
-      var result = subtract(num1, num2);
-  
-      expect(result).to.eql(9);
-    });
-});
 
 describe("multiply", function() {
     it("should multiply the two numbers", function() {
